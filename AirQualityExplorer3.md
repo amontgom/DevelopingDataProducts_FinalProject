@@ -21,14 +21,65 @@ A simple Shiny App that lets you compare the different data of the airquality da
 - Split the plot by rows according to a given variable
 - Split the plot by columns according to a given variable
 
-All of which lets you perform data analysis on airquality to your heart's content.
+All of which lets you perform visual data analysis on airquality to your heart's content.
+https://github.com/amontgom/DevelopingDataProducts_FinalProject
 
 <div align="center">
 <img src="smog.jpg" width=548 height=308>
 </div>
 
 
-The airquality dataset
+The airquality dataset -- description
+========================================================
+
+New York Air Quality Measurements
+
+Description
+
+Daily air quality measurements in New York, May to September 1973.
+
+Usage
+
+airquality
+
+Format
+
+A data frame with 154 observations on 6 variables.
+
+1.	Ozone	 numeric	 Ozone (ppb)
+2.	Solar.R	 numeric	 Solar R (lang)
+3.	Wind	 numeric	 Wind (mph)
+4.	Temp	 numeric	 Temperature (degrees F)
+5.	Month	 numeric	 Month (1--12)
+6.	Day	 numeric	 Day of month (1--31)
+
+
+
+
+The airquality dataset -- description, cont.
+========================================================
+Details
+
+Daily readings of the following air quality values for May 1, 1973 (a Tuesday) to September 30, 1973.
+
+- Ozone: Mean ozone in parts per billion from 1300 to 1500 hours at Roosevelt Island
+
+- Solar.R: Solar radiation in Langleys in the frequency band 4000-7700 Angstroms from 0800 to 1200 hours at Central Park
+
+- Wind: Average wind speed in miles per hour at 0700 and 1000 hours at LaGuardia Airport
+
+- Temp: Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.
+
+Source
+
+The data were obtained from the New York State Department of Conservation (ozone data) and the National Weather Service (meteorological data).
+
+References
+
+Chambers, J. M., Cleveland, W. S., Kleiner, B. and Tukey, P. A. (1983) Graphical Methods for Data Analysis. Belmont, CA: Wadsworth.
+
+
+The airquality dataset -- structure
 ========================================================
 
 
@@ -67,8 +118,3 @@ head(airquality)
 5    NA      NA 14.3   56     5   5
 6    28      NA 14.9   66     5   6
 ```
-
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-2](AirQualityExplorer3-figure/unnamed-chunk-2-1.png)
